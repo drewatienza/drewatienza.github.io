@@ -40,7 +40,7 @@
 
 .titleMessage .heading p {
   color: #fff;
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
   font-weight: 300;
   letter-spacing: 7px;
 }
@@ -51,4 +51,12 @@
 
 .titleMessage .heading .sub {
   font-size: 25px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.aboutImage {
+  max-width: 100%;
 }
