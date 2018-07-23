@@ -37,9 +37,7 @@ $(document).ready(function() {
   var skillsTopOffset = $(".skillsSection").offset().top;
 
   $(window).scroll(function() {
-
     if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
-
       $('.chart').easyPieChart({
         easing: 'easeInOut',
         barColor: '#fff',
@@ -51,9 +49,14 @@ $(document).ready(function() {
           $(this.el).find('.percent').text(Math.round(percent));
         }
       });
-
     }
+  });
 
+  $(".counter").each(function() {
+    var element = $(this);
+    var endVal = parseInt(element.text());
+
+    element.countup(endVal);
   });
 
 });
