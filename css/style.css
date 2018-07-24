@@ -5,6 +5,8 @@ body {
   letter-spacing: 1px;
 }
 
+
+/* SLIDE IMAGES SECTION */
 .overlay {
   width: 100%;
   height: 100%;
@@ -60,6 +62,8 @@ body {
   font-size: 25px;
 }
 
+
+/* ABOUT SECTION */
 .section {
   padding: 100px 0;
 }
@@ -68,6 +72,8 @@ body {
   max-width: 100%;
 }
 
+
+/* SKILLS SECTION */
 .skillsSection,
 .contactSection {
   background-color: #c0392b;
@@ -105,6 +111,8 @@ body {
   content: '%';
 }
 
+
+/* STATS SECTION */
 .squareItem {
   margin-top: 30px;
   position: relative;
@@ -159,6 +167,8 @@ body {
   color: #444;
 }
 
+
+/* CONTACT SECTION */
 .contactButton {
   color: #fff;
   padding: 15px 20px;
@@ -174,6 +184,8 @@ body {
   text-decoration: none;
 }
 
+
+/* PORTFOLIO SECTION */
 .filter a {
   color: #b2bec3;
   border: 1px solid #b2bec3;
@@ -317,4 +329,30 @@ body {
 
 .copyrightSection p {
   margin: 0;
+}
+
+
+/* NAVIGATION BAR */
+#navigation {
+  background-color: #c0392b;
+  padding: 20px 10px;
+  z-index: 100;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../img/icons/menu.png);
+  background-size: 100%;
 }
