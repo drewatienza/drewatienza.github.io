@@ -115,7 +115,7 @@ body {
 }
 
 .row .card {
-  background-color: #c0392b;
+  background-color: gray;
   color: #fff;
   text-align: center;
 }
@@ -130,6 +130,10 @@ body {
   background-color: #fff;
   border-color: #c0392b;
   color: #c0392b;
+}
+
+.card-img-top {
+  border-bottom: 3px solid gray;
 }
 
 /* COPYRIGHT SECTION */
