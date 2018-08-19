@@ -340,6 +340,7 @@ body {
 }
 
 .port-container .row .port-items{
+  width: 100%;
   padding: 15px;
 }
 
@@ -350,6 +351,10 @@ body {
 }
 
 .row .card {
+  margin: 0 auto;
+  float: none;
+  widows: 100%;
+  position: relative;
   background-color: gray;
   color: #fff;
   text-align: center;
