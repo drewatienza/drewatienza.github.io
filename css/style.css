@@ -83,10 +83,12 @@ body {
 
 .skillsHeader {
   margin-bottom: 30px;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .skillsHeader p {
   font-size: 18px;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .skill {
@@ -206,6 +208,11 @@ body {
 
 
 /* PORTFOLIO SECTION */
+#portfolio h1 {
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
+  color: #424242;
+}
+
 #portfolio .container {
   padding-bottom: 50px;
   width: 100%;
@@ -247,6 +254,7 @@ body {
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 #navigation li {
@@ -255,6 +263,7 @@ body {
 
 #navigation li a {
   color: #fff;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-brand,
