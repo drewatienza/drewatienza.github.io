@@ -139,7 +139,7 @@ h4 {
   position: relative;
   padding: 50px 15px 35px;
   text-align: center;
-  border: 2px solid #444;
+  border: 2px solid #8a8484;
   border-top: none;
 }
 
@@ -149,7 +149,7 @@ h4 {
   position: absolute;
   top: 0px;
   width: 30%;
-  border-bottom: 2px solid #444;
+  border-bottom: 2px solid #8a8484;
 }
 
 .squareInnerContainer::before {
@@ -181,11 +181,16 @@ h4 {
   height: 60px;
   font-size: 45px;
   margin-left: -20%;
-  color: #444;
+  color: #8a8484;
 }
 
 /* CONTACT SECTION */
+#contact {
+  background-color: #8a8484;
+}
+
 .contactButton {
+  background-color: #c0392b;
   color: #fff;
   padding: 15px 20px;
   display: inline-block;
@@ -202,7 +207,7 @@ h4 {
 
 /* COPYRIGHT SECTION */
 .copyrightSection {
-  background-color: #444;
+  background-color: #8a8484;
   color: #fff;
   padding: 30px 5px;
 }
@@ -214,7 +219,7 @@ h4 {
 /* PORTFOLIO SECTION */
 #portfolio h1 {
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-  color: #424242;
+  color: #8a8484;
 }
 
 #portfolio .container {
@@ -240,7 +245,7 @@ h4 {
   float: none;
   widows: 100%;
   position: relative;
-  background-color: #424242;
+  background-color: #8a8484;
   color: #fff;
   text-align: center;
 }
@@ -253,7 +258,8 @@ h4 {
 
 /* NAVIGATION BAR */
 #navigation {
-  background-color: #c0392b;
+  /* background-color: #c0392b; */
+  background-color: #8a8484;
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
@@ -266,12 +272,14 @@ h4 {
 
 #navigation li a {
   color: #fff;
+  font-size: 1rem;
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-brand,
 .navbar-brand:hover {
   color: #fff;
+  font-size: 1.5rem;
 }
 
 .navbar-toggler-icon {

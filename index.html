@@ -34,6 +34,41 @@
       <div class="inner"></div>
     </div>
 
+    <nav id="navigation" class="navbar sticky-top navbar-expand-lg">
+      <a class="navbar-brand" href="#">Drew Atienza</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#slides"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div id="slides">
       <div class="overlay"></div>
 
@@ -57,7 +92,7 @@
       </nav>
     </div>
 
-    <nav id="navigation" class="navbar navbar-expand-lg">
+    <!-- <nav id="navigation" class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">Drew Atienza</a>
 
       <button
@@ -73,18 +108,15 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#about"
-              >About <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="#slides"
+              >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#stats">Stats</a>
-          </li> -->
+            <a class="nav-link" href="#about">About</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
@@ -93,7 +125,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
     <div id="about" class="section">
       <div class="container">
@@ -105,24 +137,16 @@
           <div class="col-md-7 aboutWriting">
             <h3>About Me</h3>
 
+            <p>Hi there! I'm Drew.</p>
             <p>
-              Hi there! My name is Drew Atienza. I love tech and got into web
-              design and development when I was younger. I started out as a
-              self-taught developer learning HTML and CSS, then got into
-              JavaScript. I've taken courses on Udemy, Treehouse, Lynda,
-              CodeAcademy and other places. In addition to my self-learning,
-              I've enrolled in the Software Development program at Western
-              Governors University.
+              I am a self-taught developer living in central California. I love
+              building things and tinkering with tech related stuff.
             </p>
             <p>
-              I learn fast, I work hard, and I am a team player who is
-              proficient in an array of programming languages and tools. I have
-              experience working with technologies such as Python, Java, Android
-              development, and SQL.
-            </p>
-            <p>
-              Lately I've been working a lot with ReactJS. It is currently my
-              JavaScript library of choice and I love building websites with it.
+              I learn fast, I work hard, and I am constantly trying to learn new
+              technologies. I have experience and familiarity working with
+              technologies such as HTML, CSS, JavaScript, React, Python, Java,
+              and SQL.
             </p>
           </div>
         </div>
@@ -287,26 +311,12 @@
             <div class="row">
               <div class="port-items col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="card h-100" style="width: 18rem">
-                  <img
-                    class="card-img-top"
-                    src="./img/portfolio/yelpcamp.png"
-                    alt="Card image cap"
-                  />
                   <div class="card-body">
-                    <h5 class="card-title">YelpCamp</h5>
+                    <h5 class="card-title">Real Estate</h5>
                     <p class="card-text">
-                      A Yelp-like website for campgrounds where users can post
-                      and review campgrounds
+                      A real estate website create in Python and Django
                     </p>
-                    <a href="https://pacific-hamlet-62542.herokuapp.com/"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Website
-                      </button></a
-                    >
-                    <a href="https://github.com/drewatienza/yelp_camp"
+                    <a href="https://github.com/drewatienza/realeastate"
                       ><button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -320,31 +330,27 @@
 
               <div class="port-items col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="card h-100" style="width: 18rem">
-                  <img
-                    class="card-img-top"
-                    src="./img/portfolio/devmatch.png"
-                    alt="Card image cap"
-                  />
                   <div class="card-body">
-                    <h5 class="card-title">Dev Match</h5>
+                    <h5 class="card-title">Face Recognition Brain</h5>
                     <p class="card-text">
-                      A membership site where entreprenuers can meet developers
+                      Face recognition app built with React
                     </p>
-                    <a href="https://murmuring-everglades-54223.herokuapp.com/"
+                    <a
+                      href="https://github.com/drewatienza/face-recognition-brain"
                       ><button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
-                        Website
+                        Front-end
                       </button></a
                     >
                     <a
-                      href="https://github.com/drewatienza/simplecodecasts_saas"
+                      href="https://github.com/drewatienza/face-recognition-api"
                       ><button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
-                        GitHub
+                        Server
                       </button></a
                     >
                   </div>
@@ -353,18 +359,12 @@
 
               <div class="port-items col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="card h-100" style="width: 18rem">
-                  <img
-                    class="card-img-top"
-                    src="./img/portfolio/robofriends.png"
-                    alt="Card image cap"
-                  />
                   <div class="card-body">
-                    <h5 class="card-title">Robofriends</h5>
+                    <h5 class="card-title">Appointment Scheduler</h5>
                     <p class="card-text">
-                      A react application that lets you search through a list of
-                      friends
+                      Scheduler application built with Java and JavaFX
                     </p>
-                    <a href="https://github.com/drewatienza/robofriends"
+                    <a href="https://github.com/drewatienza/appt-scheduler"
                       ><button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -379,10 +379,11 @@
               <div class="port-items col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="card h-100" style="width: 18rem">
                   <div class="card-body">
-                    <h5 class="card-title">Patatap Clone</h5>
-                    <p class="card-text">A simplified clone of Patatap.com</p>
-                    <a
-                      href="https://github.com/drewatienza/patatap_clone_project"
+                    <h5 class="card-title">Inventory Management</h5>
+                    <p class="card-text">
+                      Inventory management app built with Java and JavaFX
+                    </p>
+                    <a href="https://github.com/drewatienza/inventory-mgmt-sys"
                       ><button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -399,10 +400,10 @@
                   <div class="card-body">
                     <h5 class="card-title">Background Generator</h5>
                     <p class="card-text">
-                      A web app that generates linear-gradient CSS codes
+                      Background generator app made using JavaScript
                     </p>
                     <a
-                      href="https://github.com/drewatienza/background_generator"
+                      href="https://github.com/drewatienza/background-generator"
                       ><button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
@@ -417,9 +418,11 @@
               <div class="port-items col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div class="card h-100" style="width: 18rem">
                   <div class="card-body">
-                    <h5 class="card-title">Bank App</h5>
-                    <p class="card-text">A simple banking app made in Java</p>
-                    <a href="https://github.com/drewatienza/BankApp"
+                    <h5 class="card-title">Class Roster</h5>
+                    <p class="card-text">
+                      A simple class roster app made with C++
+                    </p>
+                    <a href="https://github.com/drewatienza/class-roster"
                       ><button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
