@@ -62,6 +62,13 @@ body {
 }
 
 /* ABOUT SECTION */
+#about .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .section {
   padding: 100px 0;
 }
@@ -69,7 +76,6 @@ body {
 .aboutImage {
   max-width: 80%;
   border-radius: 50%;
-  align-content: center;
 }
 
 .aboutWriting {
@@ -77,116 +83,11 @@ body {
   padding-top: 30px;
 }
 
-/* SKILLS SECTION */
-.skillsSection,
-.contactSection {
-  background-color: #c0392b;
-  color: #fff;
-  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-}
-
-.skillsHeader {
-  margin-bottom: 30px;
-  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-}
-
-.skillsHeader p {
-  font-size: 18px;
-  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-}
-
-.skill {
-  text-align: center;
-  margin-left: 10px;
-}
-
-.chart {
-  position: relative;
-  width: 152px;
-  height: 152px;
-  display: inline-block;
-  text-align: center;
-}
-
-.chart canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.chart .percent {
-  color: #fff;
-  line-height: 152px;
-  display: inline-block;
-  font-size: 35px;
-}
-
-.chart .percent:after {
-  content: "%";
-}
-
-h4 {
-  padding-top: 15px;
-}
-
-/* STATS SECTION */
-.squareItem {
-  margin-top: 30px;
-  position: relative;
-}
-
-.squareInnerContainer {
-  position: relative;
-  padding: 50px 15px 35px;
-  text-align: center;
-  border: 2px solid #8a8484;
-  border-top: none;
-}
-
-.squareInnerContainer::before,
-.squareInnerContainer::after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  width: 30%;
-  border-bottom: 2px solid #8a8484;
-}
-
-.squareInnerContainer::before {
-  right: 0px;
-}
-
-.squareInnerContainer::after {
-  left: 0px;
-}
-
-.squareContent h2 {
-  font-size: 56px;
-  margin-bottom: 10px;
-  font-weight: 400;
-  color: #c0392b;
-}
-
-.squareContent h3 {
-  font-size: 13px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.squareIcon {
-  position: absolute;
-  left: 50%;
-  top: -30px;
-  width: 40%;
-  height: 60px;
-  font-size: 45px;
-  margin-left: -20%;
-  color: #8a8484;
-}
-
 /* CONTACT SECTION */
-#contact {
-  background-color: #8a8484;
+.contactSection {
+  background-color: #424949;
+  color: #fff;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .contactButton {
@@ -207,9 +108,9 @@ h4 {
 
 /* COPYRIGHT SECTION */
 .copyrightSection {
-  background-color: #8a8484;
+  background-color: #424949;
   color: #fff;
-  padding: 30px 5px;
+  padding: 10px 5px;
 }
 
 .copyrightSection p {
@@ -219,7 +120,7 @@ h4 {
 /* PORTFOLIO SECTION */
 #portfolio h1 {
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-  color: #8a8484;
+  color: #424949;
 }
 
 #portfolio .container {
@@ -245,7 +146,7 @@ h4 {
   float: none;
   widows: 100%;
   position: relative;
-  background-color: #8a8484;
+  background-color: #424949;
   color: #fff;
   text-align: center;
 }
@@ -259,8 +160,8 @@ h4 {
 /* NAVIGATION BAR */
 #navigation {
   /* background-color: #c0392b; */
-  background-color: #8a8484;
-  padding: 20px 10px;
+  background-color: #424949;
+  padding: 3px 10px;
   z-index: 100;
   width: 100%;
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
